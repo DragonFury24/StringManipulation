@@ -20,7 +20,7 @@ public class StringUtils {
 
     public static String repeatFront(String s, int prefixToRepeat) {
         if (prefixToRepeat > s.length()) {return s;}
-        
+
         String temp = s.substring(0, prefixToRepeat);
         StringBuilder stringBuilder = new StringBuilder();
         if (s.substring(0, prefixToRepeat).length() > 1) {
