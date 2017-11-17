@@ -34,7 +34,7 @@ public class StringUtils {
     }
 
     public static String prefixRepeated(String s, int prefixAmount) {
-        return prefixAmount > s.length() ? s :
+        return prefixAmount > s.length() ? "No" :
                 (s.toLowerCase().substring(prefixAmount).contains(s.substring(0, prefixAmount)) ? "Yes" : "No");
 
     }
